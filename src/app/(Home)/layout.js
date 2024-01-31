@@ -3,10 +3,10 @@ import TopNav from "./Components/TopNav";
 
 const layout = ({ children }) => {
   return (
-    <div>
+    <div className="bg-[#E8F0F5] containering w-full">
       <div className="flex h-full">
         <SideNav></SideNav>
-        <div>
+        <div className="mt-[40px] me-[40px] w-full">
           <TopNav />
           {children}
         </div>
